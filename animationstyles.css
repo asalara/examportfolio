@@ -1,0 +1,14 @@
+.sprite {
+	width:590px;
+	height:400px;
+	display:block;
+	background:transparent url(kikirsaugu.png) 0 0 no-repeat;
+	margin:3em auto;
+    animation: busy 0.8s steps(7) infinite;
+}
+
+
+@keyframes busy {
+    0% {background-position: 0 0;}
+    100% {background-position: 0 -2800px;}
+}
